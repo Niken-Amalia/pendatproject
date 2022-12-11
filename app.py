@@ -36,10 +36,7 @@ with tab1:
     Data telah dikumpulkan dari berbagai rumah sakit, klinik komunitas, layanan kesehatan 
     ibu melalui sistem pemantauan risiko berbasis IoT.
     """)
-
-    st.write(data)
-    col = data.shape
-    st.write("Jumlah Baris dan Kolom : ", col)
+    
     st.write("""
     ### Deskripsi Fitur
     Disini di jelaskan data-data yang ada dalam dataset tersebut seperti penjelasan dari setiap fitur yang
@@ -55,6 +52,7 @@ with tab1:
     st.write(data)
     col = data.shape
     st.write("Jumlah Baris dan Kolom : ", col)
+    
     st.write("""
     ### Sumber
     - Dataset [kaggel.com](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data)
