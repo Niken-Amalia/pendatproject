@@ -60,7 +60,7 @@ with tab1:
     """)
 
 with tab2:
-    st.subheader("Data Preprocessing")
+    st.subheader("Preprocessing")
     st.subheader("Data Asli")
     data = pd.read_csv("Healthrisk.csv")
     st.write(data)
@@ -75,11 +75,11 @@ with tab2:
         scaler = MinMaxScaler()
         df_hasil_minmax_scaler=scaler.fit_transform(df_for_minmax_scaler)
 
-        st.subheader("Hasil Normalisasi Min_Max")
+        st.subheader("Hasil Normalisasi Min Max")
         df_hasil_minmax_scaler = pd.DataFrame(df_hasil_minmax_scaler,columns = ['Age',	'SystolicBP',	'DiastolicBP',	'BS',	'BodyTemp',	'HeartRate'])
         st.write(df_hasil_minmax_scaler)
 
-        st.subheader("tampil data risklevel")
+        st.subheader("Data Risklevel")
         df_RiskLevel = pd.DataFrame(data, columns = ['RiskLevel'])
         st.write(df_RiskLevel.head())
 
