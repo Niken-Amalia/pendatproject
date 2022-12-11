@@ -41,7 +41,7 @@ with tab1:
     col = data.shape
     st.write("Jumlah Baris dan Kolom : ", col)
     st.write("""
-    ### Data Understanding
+    ### Deskripsi Fitur
     Disini di jelaskan data-data yang ada dalam dataset tersebut seperti penjelasan dari setiap fitur yang
     ada dalam dataset tersebut :
     1. Age          : Usia dalam tahun ketika seorang wanita hamil..
@@ -52,8 +52,11 @@ with tab1:
     6. HeartRate    : Detak jantung istirahat normal dalam denyut per menit.
     7. RiskLevel    : Prediksi Tingkat Intensitas Risiko selama kehamilan dengan mempertimbangkan atribut sebelumnya.
     """)
+    st.write(data)
+    col = data.shape
+    st.write("Jumlah Baris dan Kolom : ", col)
     st.write("""
-    ### Want to learn more?
+    ### Sumber
     - Dataset [kaggel.com](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data)
     - Github Account [github.com](https://github.com/Niken-Amalia/pendatproject)
     """)
