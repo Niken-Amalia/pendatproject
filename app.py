@@ -54,8 +54,8 @@ with tab1:
     """)
     st.write("""
     ### Want to learn more?
-    - Dataset [kaggel.com](https://www.kaggle.com/datasets/kannanaikkal/ecoli-uci-dataset)
-    - Github Account [github.com](https://github.com/AliGhufron-28/datamaining)
+    - Dataset [kaggel.com](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data)
+    - Github Account [github.com](https://github.com/Niken-Amalia/pendatproject)
     """)
 
 with tab2:
@@ -214,7 +214,7 @@ with tab4:
         pred = loaded_model.predict([dataArray])
 
         st.success(f"Prediksi Hasil Klasifikasi : {pred[0]}")
-        st.write(f"Algoritma yang digunakan adalah = Random Forest Algorithm")
+        #st.write(f"Algoritma yang digunakan adalah = Random Forest Algorithm")
         st.success(f"Hasil Akurasi : {score}")
 with tab5:
 
