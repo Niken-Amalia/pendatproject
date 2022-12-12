@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import neighbors, datasets
 import pickle
 
-st.title("Aplikasi Web Datamining")
+#st.title("Aplikasi Web Datamining")
 st.write("""
 # Maternal Health Risk Dataset
 Aplikasi Berbasis Web untuk Mengklasifikasi **Maternal Health Risk**,
